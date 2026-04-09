@@ -12,7 +12,7 @@ setup(
     py_modules=['tap_netsuite'],
     install_requires=[
         'netsuitesdk @ git+https://github.com/hotgluexyz/netsuite-sdk-py.git@2.7.5#egg=netsuitesdk', # USING THE HOTGLUE VERSION
-        'requests==2.21.0',
+        'requests==2.33.0',
         'singer-python==5.3.1',
         'xmltodict==0.11.0',
         'jsonpath-ng==1.4.3',
